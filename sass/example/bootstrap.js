@@ -866,8 +866,19 @@ Ext.ClassManager.addNameAlternateMappings({
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "wzqr.Application": [],
+  "wzqr.Config": [],
+  "wzqr.Utils": [
+    "Utils"
+  ],
+  "wzqr.controller.BaseController": [],
+  "wzqr.controller.LoaderController": [],
+  "wzqr.controller.Login": [],
   "wzqr.controller.Main": [],
+  "wzqr.view.Bottom": [],
+  "wzqr.view.Dashboard": [],
+  "wzqr.view.Login": [],
   "wzqr.view.Main": [],
+  "wzqr.view.Top": [],
   "wzqr.view.Viewport": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1911,9 +1922,24 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": [],
   "wzqr.Application": [],
+  "wzqr.Config": [],
+  "wzqr.Utils": [],
+  "wzqr.controller.BaseController": [],
+  "wzqr.controller.LoaderController": [],
+  "wzqr.controller.Login": [],
   "wzqr.controller.Main": [],
+  "wzqr.view.Bottom": [
+    "widget.xbottom"
+  ],
+  "wzqr.view.Dashboard": [],
+  "wzqr.view.Login": [
+    "widget.xlogin"
+  ],
   "wzqr.view.Main": [
     "widget.app-main"
+  ],
+  "wzqr.view.Top": [
+    "widget.xtop"
   ],
   "wzqr.view.Viewport": []
 });

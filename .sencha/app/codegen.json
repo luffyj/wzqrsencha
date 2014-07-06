@@ -35,6 +35,9 @@
     },
     "{controllerFileName}.js.tpl.merge": {
       "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188": "eJxzrSjRS0lNy8xL1VCvTs7PKynKz8lJLfJLzE0tLkhMTq3VQxOtVddRqOZSAILUipLUvBQrBXVXoBmJBQV6znCF6ly1mtZcACwSIF0\u003d"
+    },
+    "{viewFileName}.js.tpl.merge": {
+      "acde5ea901286ca2f976bcddea23e159dbaa0e6f": "eJxzrSjRS0lNy8xL1VCqTiwo8EvMTa3VK8tMLderBpFgvpKOQjWXAhCkVpSk5qVYKai7ArU55+cW5Oel5pWo64AlM0pyc4BSHqk5Ofk6CuH5RTkpiorqXLWa1gDU/CBX"
     }
   },
   "targets": {
@@ -334,6 +337,79 @@
         "name": "wzqr",
         "controllerNamespace": "wzqr.controller",
         "controllerFileName": "Main"
+      }
+    },
+    "app/controller/LoaderController.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "wzqr",
+        "controllerName": "LoaderController",
+        "name": "LoaderController",
+        "controllerNamespace": "wzqr.controller",
+        "controllerFileName": "LoaderController"
+      }
+    },
+    "app/controller/BaseController.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "wzqr",
+        "controllerName": "BaseController",
+        "name": "BaseController",
+        "controllerNamespace": "wzqr.controller",
+        "controllerFileName": "BaseController"
+      }
+    },
+    "app/view/Login.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "Login",
+        "viewFileName": "Login",
+        "appName": "wzqr",
+        "name": "Login"
+      }
+    },
+    "app/controller/Login.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "wzqr",
+        "controllerName": "Login",
+        "name": "Login",
+        "controllerNamespace": "wzqr.controller",
+        "controllerFileName": "Login"
+      }
+    },
+    "app/view/Dashboard.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "Dashboard",
+        "viewFileName": "Dashboard",
+        "appName": "wzqr",
+        "name": "Dashboard"
+      }
+    },
+    "app/view/Top.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "Top",
+        "viewFileName": "Top",
+        "appName": "wzqr",
+        "name": "Top"
+      }
+    },
+    "app/view/Bottom.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "Bottom",
+        "viewFileName": "Bottom",
+        "appName": "wzqr",
+        "name": "Bottom"
       }
     }
   }

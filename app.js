@@ -11,20 +11,3 @@ Ext.application({
     
     autoCreateViewport: true
 });
-
-function error() {
-//<debug>    
-    if (typeof console !== 'undefined') {
-        (console.error || console.log).apply(console, [].slice.call(arguments));
-    }
-//</debug>    
-}
-
-function log() {
-//<debug>    
-    if (typeof console !== 'undefined') {
-        (console.log || console.error).apply(console, [].slice.call(arguments));
-    }
-//</debug>    
-}
-debug = log;
