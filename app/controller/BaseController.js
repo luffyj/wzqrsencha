@@ -28,7 +28,17 @@ Ext.define('wzqr.controller.BaseController', {
                     debug('login as ',data);
                     // 这里即将展开的是
                     //
-                    Utils.push(this.getView('Dashboard').create());
+                    Utils.push(this.getView('Dashboard').create({
+                        pages:[
+                            {
+                                title:'第一个',
+                                html:'哈哈1'
+                            },{
+                                title:'第二个',
+                                html:'哈哈2'
+                            }
+                        ]
+                    }));
                 }
             },
             failure:function(data,opts){
