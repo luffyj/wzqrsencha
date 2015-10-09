@@ -18,7 +18,7 @@ Ext.define("wzqr.view.Top", {
             margin: '20 20 0 0',
             xtype: 'panel',
             dock: 'right',
-            width: 260,
+            width: 360,
             dockedItems: [
                 {
                     xtype: 'panel',
@@ -29,6 +29,9 @@ Ext.define("wzqr.view.Top", {
                             dock: 'right',
                             text: '退出'
                         }],
+                    defaults: {
+                        xtype: 'component'
+                    },
                     items: [
                         {
                             xtype: 'image',
@@ -36,10 +39,14 @@ Ext.define("wzqr.view.Top", {
                         }, {
                             html: '欢迎你，'
                         }, {
+                            name: 'labelName',
                             html: 'name'
+                        }, {
+                            html: '，'
                         }, {
                             html: '您的角色是'
                         }, {
+                            name: 'labelRole',
                             html: 'role'
                         }
                     ]
@@ -57,14 +64,14 @@ Ext.define("wzqr.view.Top", {
             },
             dockedItems: [
                 {
-                    dock: 'bottom',                    
+                    dock: 'bottom',
                     orientation: 'horizontal',
                     layout: {
                         pack: 'left',
                         align: 'left'
                     },
                     xtype: 'tabbar',
-                    ui:'wzmaintab',
+                    ui: 'wzmaintab',
 //                    xtype: 'container',
                     margin: '0 0 0 30',
 //                    layout: {

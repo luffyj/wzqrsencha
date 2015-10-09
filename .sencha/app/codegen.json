@@ -38,6 +38,9 @@
     },
     "{viewFileName}.js.tpl.merge": {
       "acde5ea901286ca2f976bcddea23e159dbaa0e6f": "eJxzrSjRS0lNy8xL1VCqTiwo8EvMTa3VK8tMLderBpFgvpKOQjWXAhCkVpSk5qVYKai7ArU55+cW5Oel5pWo64AlM0pyc4BSHqk5Ofk6CuH5RTkpiorqXLWa1gDU/CBX"
+    },
+    "{modelFileName}.js.tpl.merge": {
+      "31d5356142a167c72422f7902f19df3c583f3249": "eJxlUcFugzAMvfMVVqUq0CLorlC6w7TrfgBxSMG00dKAktAxRfn3GWg7rfMhdvKeX16c99EmDbZCYcjcpWtQfvALmp7X6BOnqPYsBhcABY4WVZMBc0du8E1yYwicoXlpBcrGZFC69byf4srlgCZZICggbAdVW9Epquaz6CZ+j7bTEF65Bo2W+GUVQ8+1nXqXhsT0UtiQxSyKQdDxLqe0X1iJRHWy5xy2W/GsvNjR0FLPTC5FdRfLWJT/I5ODpB/MOXQwDSKDttyRHfvdz/VLBf6pywfBk8Cg1ZTyX8BH4Z+h3CTWfm97OT2/WC3A6vDouRtgjx9ZTDA3Zc/AuxLCUagGRygKGOtuUDaCV2AMiBYzqPw+pQsOgVtDuoGj5OoTJP072I4cNkONcEF9Qqg71UpR08i/0sGgBmwEbTYpeZwdVcH07h/XJaFF"
     }
   },
   "targets": {
@@ -410,6 +413,90 @@
         "viewFileName": "Bottom",
         "appName": "wzqr",
         "name": "Bottom"
+      }
+    },
+    "app/view/ManageApplication.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "ManageApplication",
+        "viewFileName": "ManageApplication",
+        "appName": "wzqr",
+        "name": "ManageApplication"
+      }
+    },
+    "app/view/ManageOrg.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "ManageOrg",
+        "viewFileName": "ManageOrg",
+        "appName": "wzqr",
+        "name": "ManageOrg"
+      }
+    },
+    "app/view/Mine.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "Mine",
+        "viewFileName": "Mine",
+        "appName": "wzqr",
+        "name": "Mine"
+      }
+    },
+    "app/view/Log.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "Log",
+        "viewFileName": "Log",
+        "appName": "wzqr",
+        "name": "Log"
+      }
+    },
+    "app/view/ManageUnit.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "viewName": "ManageUnit",
+        "viewFileName": "ManageUnit",
+        "appName": "wzqr",
+        "name": "ManageUnit"
+      }
+    },
+    "app/controller/ManageApplication.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "wzqr",
+        "controllerName": "ManageApplication",
+        "name": "ManageApplication",
+        "controllerNamespace": "wzqr.controller",
+        "controllerFileName": "ManageApplication"
+      }
+    },
+    "app/model/Org.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "wzqr",
+        "name": "Org",
+        "baseClass": "Ext.data.Model",
+        "modelNamespace": "wzqr.model",
+        "fields": "id:int:null,name:string:null,description:string:null",
+        "modelFileName": "Org"
+      }
+    },
+    "app/controller/ManageOrg.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "wzqr",
+        "controllerName": "ManageOrg",
+        "name": "ManageOrg",
+        "controllerNamespace": "wzqr.controller",
+        "controllerFileName": "ManageOrg"
       }
     }
   }

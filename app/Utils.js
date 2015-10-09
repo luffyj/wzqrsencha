@@ -13,9 +13,16 @@ Ext.define('wzqr.Utils', {
         myConfig: "wzqr.Config"
     },
     
-    
+    /**
+     * how to use for in correctly
+     * http://stackoverflow.com/questions/9329446/how-to-do-for-each-over-an-array-in-javascript
+     * */
+    arrayHasOwnIndex:function(array, prop) {
+        return array.hasOwnProperty(prop) && /^0$|^[1-9]\d*$/.test(prop) && prop <= 4294967294; // 2^32 - 2
+    },
     /**
      * 获取api的具体url
+     * @param {string} name api的具体名字
      * */
     toApi: function(name) {
         return this.getApiRoot() + name;

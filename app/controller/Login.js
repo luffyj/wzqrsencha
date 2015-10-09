@@ -15,10 +15,10 @@ Ext.define('wzqr.controller.Login', {
                 failure: function(form, action) {
                     Utils.stopLoading();
                     if (action.response.status===306 || action.response.status===401){
-                        Ext.Msg.alert('您输入了错误的登录账号或登录密码。');
+                        Ext.Msg.alert('错误','您输入了错误的登录账号或登录密码。');
                     }
                     if (action.response.status===410){
-                        Ext.Msg.alert('验证码错误。');
+                        Ext.Msg.alert('错误','验证码错误。');
                     }
                     // 没有必要重置验证码吧？
 //                    image.setSrc(image.src);
@@ -30,6 +30,12 @@ Ext.define('wzqr.controller.Login', {
         this.control({
             'xlogin button[name=login]': {
                 click: this.submitLogin
+            },
+            'xtop component[name=labelName]':{
+                show:function(label){
+                    debug(label);
+                    label.html = this.getApplication().currentUser.realName;
+                }
             }
         });
     }

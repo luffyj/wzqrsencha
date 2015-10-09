@@ -22,6 +22,7 @@ Ext.define('wzqr.Application', {
 
     extend: 'Ext.app.Application',
     requires:[
+        'wzqr.SpringDataRestProxy',
         'wzqr.Utils'
     ],
 
@@ -31,8 +32,12 @@ Ext.define('wzqr.Application', {
 
     controllers: [
         // TODO: add controllers here
-        "LoaderController",
-        "Login"
+        
+        
+        'LoaderController',
+        'Login',
+        'ManageOrg',
+        'ManageApplication'
     ],
 
     stores: [

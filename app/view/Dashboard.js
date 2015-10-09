@@ -75,7 +75,7 @@ Ext.define("wzqr.view.Dashboard", {
             });
             
             if(index===0){
-                debug(added.tab);
+//                debug(added.tab);
                 tabBar.setActiveTab(added.tab);
 //                added.tab.activate();
 //                added.tab.setActive(true);
